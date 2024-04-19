@@ -20,7 +20,7 @@
 .content-menu a {
     padding: 20px;
     text-decoration: none;
-    color: aquamarine;
+    color: #0EC0C3;
 }
 
 .content-button button {
@@ -45,31 +45,27 @@
 }
 
 .content-detail h1 {
-    color: aqua;
+    color: #0EC0C3;
     text-align: center;
 }
 
 .content-detail p {
-    color: orange;
+    color: #F79646;
     font-style: italic;
     font-size: larger;
 }
 
-.footer-top {
-    display: flex;
-    justify-content: space-evenly;
-
-}
 
 .footer {
     display: flex;
-    flex-direction: column;
-    background-color: rgb(47, 46, 128);
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #06A2C8;
     color: white;
-
+    justify-content: space-around;
 }
-
-.footer h5 {
+.footer h5{
+    flex-basis: 100%;
     text-align: center;
 }
 
